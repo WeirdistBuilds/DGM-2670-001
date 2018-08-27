@@ -8,6 +8,9 @@
         <e p="Resources" t="Include">
           <e p="PowerUpConfig.cs" t="Include" />
         </e>
+        <e p="Scripts" t="Include">
+          <e p="EventScript.cs" t="Include" />
+        </e>
       </e>
       <e p="DGM-2670-001.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
