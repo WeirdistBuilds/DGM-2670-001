@@ -9,7 +9,14 @@
           <e p="PowerUpConfig.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="EventBasedBehavior" t="Include">
+            <e p="DestroyEvent.cs" t="Include" />
+            <e p="MouseDownEvent.cs" t="Include" />
+            <e p="TriggerEnterEvent.cs" t="Include" />
+            <e p="UpdateEvent.cs" t="Include" />
+          </e>
           <e p="EventScript.cs" t="Include" />
+          <e p="NewEvent.cs" t="Include" />
         </e>
       </e>
       <e p="DGM-2670-001.sln" t="IncludeFlat" />
