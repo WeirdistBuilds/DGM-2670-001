@@ -9,6 +9,7 @@
           <e p="PowerUpConfig.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AiAgent.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="EventBasedBehavior" t="Include">
             <e p="DisableEvent.cs" t="Include" />
