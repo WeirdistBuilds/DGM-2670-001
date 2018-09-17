@@ -8,14 +8,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b772dd8c686f3164299be0d1c22d8f61, type: 3}
-  m_Name: AutoCar
+  m_Script: {fileID: 11500000, guid: 54e931af1498eb846bb7c9bdf6f0823c, type: 3}
+  m_Name: DoubleJump
   m_EditorClassIdentifier: 
-  JumpSpeed: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
   Gravity: {fileID: 11400000, guid: f64bdf55c2232d24c9460e844d576442, type: 2}
-  MoveX: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
-  MoveY: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
-  MoveZ: {fileID: 11400000, guid: 128cbe9ad1cdc1743906741d5a96fbf8, type: 2}
+  MoveX: {fileID: 11400000, guid: bbbcd5ec15b29ef4e98374a6c8010ee5, type: 2}
+  MoveY: {fileID: 11400000, guid: e1195a546b37aba4c8d92a92b5375477, type: 2}
+  MoveZ: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
   RotX: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
   RotY: {fileID: 11400000, guid: bae3376a4c4a34f4693d4dd079979cd8, type: 2}
   RotZ: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
