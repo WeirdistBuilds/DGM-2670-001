@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Klee\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Klee\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Assignment 0.-823184556.00" t="ExcludeRecursive" />
+    <e p="E:\Work\School Work\2018 Fall\DGM-2670\Git Repos\DGM-2670-001\Assignment 0" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assignment 0.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

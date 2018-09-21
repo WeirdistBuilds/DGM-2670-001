@@ -5,29 +5,24 @@ using UnityEngine.AI;
 public class AiAgent : MonoBehaviour
 {
 	private NavMeshAgent agent;
-	public Transform Destination;
-	public Transform PostPoint;
+	public Transform PlayerLocation;
+	public Transform BackWall;
 	private Transform finalDestination;
-	
-	
 	
 	private void Start ()
 	{
 		agent = GetComponent<NavMeshAgent>();
-		finalDestination = transform;
+		finalDestination = PlayerLocation;
 	}
 
 	private void OnTriggerEnter(Collider obj)
 	{
-		if (obj.transform == Destination)
-			finalDestination = Destination;
+		if (obj.transform == BackWall)
+			finalDestination = PlayerLocation;
+		else
+			finalDestination = BackWall;
 	}
 	
-	private void OnTriggerExit(Collider obj)
-	{
-		finalDestination = PostPoint;
-	}
-
 	private void Update()
 	{
 		agent.destination = finalDestination.position;
