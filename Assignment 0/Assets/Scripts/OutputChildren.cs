@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.WSA.Persistence;
 
 public class OutputChildren : MonoBehaviour
 {
-    private Transform[] allChildren = GetComponentsInChildren<Transform>();
-    private dynamic List<GameObject> childObjects;
+    private Transform[] allChildren = GetComponentInChildren(Transform);
+    private List<GameObject> childObjects;
 	
     void Start ()
     {
