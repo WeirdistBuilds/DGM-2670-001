@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
@@ -8,9 +9,11 @@ public class AiAgent : MonoBehaviour
 	public Transform Destination;
 	public Transform PostPoint;
 	private Transform finalDestination;
+	public FloatData Speed;
 	
 	private void Start ()
 	{
+		agent.speed = Speed.Value;
 		agent = GetComponent<NavMeshAgent>();
 		finalDestination = transform;
 	}
