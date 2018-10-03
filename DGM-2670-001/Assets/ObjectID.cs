@@ -5,6 +5,6 @@ using UnityEngine;
 public class ObjectID : MonoBehaviour
 {
 
-    public NameID Id;
+    public NameID ID;
     
 }

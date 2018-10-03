@@ -13,16 +13,7 @@ public class AiAgent : MonoBehaviour
 	public Transform PostPoint;
 
 	private Transform finalDestination;
-<<<<<<< Updated upstream
-
 	
-
-=======
-    
-    
-	
-	
->>>>>>> Stashed changes
 	private void Start ()
 
 	{

@@ -11,7 +11,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AiAgent.cs" t="Include" />
+          <e p="ChangeColor.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
+          <e p="ColorData.cs" t="Include" />
           <e p="EventBasedBehavior" t="Include">
             <e p="DisableEvent.cs" t="Include" />
             <e p="MouseDownEvent.cs" t="Include" />
@@ -32,8 +34,8 @@
             <e p="Draggable.cs" t="Include" />
             <e p="Letter.cs" t="Include" />
             <e p="Letters.cs" t="Include" />
+            <e p="MatchID.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
-            <e p="TriggerID.cs" t="Include" />
             <e p="Word.cs" t="Include" />
           </e>
         </e>
