@@ -53,7 +53,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d632480920f5a46bb8b37ee5581d4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pattern: {fileID: 11400000, guid: 8900a5689167bd4489b370985d2ccb28, type: 2}
+  pattern: {fileID: 11400000, guid: 498a15e8c30a54145a8bd15a05051144, type: 2}
 --- !u!143 &143940889860559144
 CharacterController:
   m_ObjectHideFlags: 1

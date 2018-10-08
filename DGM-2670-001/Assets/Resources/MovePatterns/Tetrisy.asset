@@ -11,10 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3de838e2fbfecce4fbb4848f551fd99a, type: 3}
   m_Name: Tetrisy
   m_EditorClassIdentifier: 
-  Gravity: {fileID: 0}
-  MoveX: {fileID: 0}
-  MoveY: {fileID: 0}
-  MoveZ: {fileID: 0}
-  RotX: {fileID: 0}
-  RotY: {fileID: 0}
-  RotZ: {fileID: 0}
+  Gravity: {fileID: 11400000, guid: 96af6419541d1164fae3022f14b4a5a2, type: 2}
+  MoveX: {fileID: 11400000, guid: bae3376a4c4a34f4693d4dd079979cd8, type: 2}
+  MoveY: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
+  MoveZ: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
+  RotX: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
+  RotY: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
+  RotZ: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}

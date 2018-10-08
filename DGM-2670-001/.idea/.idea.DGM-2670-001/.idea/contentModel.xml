@@ -28,7 +28,6 @@
           <e p="ForEachLoops.cs" t="Include" />
           <e p="InstanceObject.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
-          <e p="MovePatternDual.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
           <e p="PerpetualCounter.cs" t="Include" />
