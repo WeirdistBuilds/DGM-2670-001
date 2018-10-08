@@ -14,6 +14,7 @@
           <e p="ChangeColor.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="ColorData.cs" t="Include" />
+          <e p="Counter.cs" t="Include" />
           <e p="EventBasedBehavior" t="Include">
             <e p="DisableEvent.cs" t="Include" />
             <e p="MouseDownEvent.cs" t="Include" />
@@ -25,10 +26,12 @@
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
           <e p="ForEachLoops.cs" t="Include" />
+          <e p="InstanceObject.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternDual.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
+          <e p="PerpetualCounter.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
           <e p="WordGameScripts" t="Include">
             <e p="Draggable.cs" t="Include" />
