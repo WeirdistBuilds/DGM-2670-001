@@ -1,0 +1,6 @@
+[submodule "DGM-2670-001\\DGM-2670-001\\Assets"]
+	path = DGM-2670-001\\DGM-2670-001\\Assets
+	url = https://github.com/Unity-Technologies/NavMeshComponents.git
+[submodule "DGM-2670-001/DGM-2670-001/Assets"]
+	path = DGM-2670-001/DGM-2670-001/Assets
+	url = https://github.com/Unity-Technologies/NavMeshComponents.git
