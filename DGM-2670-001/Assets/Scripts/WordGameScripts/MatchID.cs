@@ -5,8 +5,14 @@ public class MatchID : MonoBehaviour
 {
     public NameID ID;
     public UnityEvent OnMatch;
-    
-    public void Invoke (NameID id)
+
+    private void OnTriggerEnter(Collider other)
+    {
+        var id = other.GetComponent<ObjectID>().ID;
+        Call(id);
+    }
+
+    public void Call(NameID id)
     {
         if (id == ID)
         {
