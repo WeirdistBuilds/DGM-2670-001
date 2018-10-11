@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10285843\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_DGM-2670-001.1092432073.00" t="ExcludeRecursive" />
-    <e p="F:\Git Repos\DGM-2670-001\DGM-2670-001" t="IncludeRecursive">
+    <e p="C:\Users\Klee\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Klee\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_DGM-2670-001.-1472665932.00" t="ExcludeRecursive" />
+    <e p="E:\Work\School Work\2018 Fall\DGM-2670\Git Repos\DGM-2670-001\DGM-2670-001" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ObjectID.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="PowerUpConfig.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="AiAgent.cs" t="Include" />
-          <e p="ChangeColor.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
-          <e p="ColorData.cs" t="Include" />
-          <e p="Counter.cs" t="Include" />
           <e p="EventBasedBehavior" t="Include">
             <e p="DisableEvent.cs" t="Include" />
             <e p="MouseDownEvent.cs" t="Include" />
@@ -25,21 +22,10 @@
           <e p="FloatBool.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
-          <e p="ForEachLoops.cs" t="Include" />
-          <e p="InstanceObject.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
+          <e p="MovePatternDual.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
           <e p="NewEvent.cs" t="Include" />
-          <e p="PerpetualCounter.cs" t="Include" />
-          <e p="RunCountDown.cs" t="Include" />
-          <e p="WordGameScripts" t="Include">
-            <e p="Draggable.cs" t="Include" />
-            <e p="Letter.cs" t="Include" />
-            <e p="Letters.cs" t="Include" />
-            <e p="MatchID.cs" t="Include" />
-            <e p="NameID.cs" t="Include" />
-            <e p="Word.cs" t="Include" />
-          </e>
         </e>
       </e>
       <e p="DGM-2670-001.sln" t="IncludeFlat" />

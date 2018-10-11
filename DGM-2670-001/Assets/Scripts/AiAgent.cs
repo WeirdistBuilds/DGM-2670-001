@@ -7,7 +7,7 @@ public class AiAgent : MonoBehaviour
 {
 
 	private NavMeshAgent agent;
-
+	
 	public Transform Destination;
 
 	public Transform PostPoint;
