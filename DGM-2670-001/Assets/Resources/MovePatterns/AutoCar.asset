@@ -11,8 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b772dd8c686f3164299be0d1c22d8f61, type: 3}
   m_Name: AutoCar
   m_EditorClassIdentifier: 
-  JumpSpeed: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
-  Gravity: {fileID: 11400000, guid: f64bdf55c2232d24c9460e844d576442, type: 2}
+  Gravity: {fileID: 11400000, guid: 96af6419541d1164fae3022f14b4a5a2, type: 2}
   MoveX: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
   MoveY: {fileID: 11400000, guid: 8f0c085667b9c254487a3f0ee29a186a, type: 2}
   MoveZ: {fileID: 11400000, guid: 128cbe9ad1cdc1743906741d5a96fbf8, type: 2}

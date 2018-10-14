@@ -8,8 +8,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 107006722d966574fbcea461c2431ea1, type: 3}
-  m_Name: V4.0
+  m_Script: {fileID: 11500000, guid: cd7ab7e9c31b25341ae101ad1fb04181, type: 3}
+  m_Name: NewMovePattern
   m_EditorClassIdentifier: 
-  value: 4
-  InputName: Vertical
+  Gravity: {fileID: 0}
+  MoveX: {fileID: 0}
+  MoveY: {fileID: 0}
+  MoveZ: {fileID: 0}
+  RotX: {fileID: 0}
+  RotY: {fileID: 0}
+  RotZ: {fileID: 0}

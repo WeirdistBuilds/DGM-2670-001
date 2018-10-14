@@ -19,12 +19,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2046" />
+          <entry key="cs" value="2212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2046" />
+          <entry key="C#" value="2212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,13 +75,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CharacterMover.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="306">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
-                <marker date="1539495540652" expanded="false" signature="6:78" ph="..." />
-                <marker date="1539495540652" expanded="true" signature="171:344" ph="{...}" />
-                <marker date="1539495540652" expanded="true" signature="273:280" ph="{...}" />
-                <marker date="1539495540652" expanded="true" signature="335:342" ph="{...}" />
+                <marker date="1539495643200" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539495643200" expanded="true" signature="171:384" ph="{...}" />
+                <marker date="1539495643200" expanded="true" signature="261:319" ph="{...}" />
+                <marker date="1539495643200" expanded="true" signature="335:382" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -393,13 +393,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CharacterMover.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="306">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
-            <marker date="1539495540652" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539495540652" expanded="true" signature="171:344" ph="{...}" />
-            <marker date="1539495540652" expanded="true" signature="273:280" ph="{...}" />
-            <marker date="1539495540652" expanded="true" signature="335:342" ph="{...}" />
+            <marker date="1539495643200" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539495643200" expanded="true" signature="171:384" ph="{...}" />
+            <marker date="1539495643200" expanded="true" signature="261:319" ph="{...}" />
+            <marker date="1539495643200" expanded="true" signature="335:382" ph="{...}" />
           </folding>
         </state>
       </provider>
