@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1f2bac54b1e60469596cebf645fcad, type: 3}
+  m_Name: PurchasedLetters
+  m_EditorClassIdentifier: 
+  ObjectList:
+  - {fileID: 11400000, guid: bffb76cca8ae8364cb15833fb8576523, type: 2}
+  - {fileID: 11400000, guid: 4079f3ac97e0da040803e606aa482643, type: 2}
+  - {fileID: 11400000, guid: c3e46c24732c771499839bdfd6845133, type: 2}
