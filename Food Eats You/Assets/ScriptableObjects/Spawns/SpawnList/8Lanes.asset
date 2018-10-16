@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3562e73fe922c6a4c92cf5dd8f7c39fb, type: 3}
+  m_Name: 8Lanes
+  m_EditorClassIdentifier: 
+  SpawnList:
+  - {fileID: 11400000, guid: 9d9dbe23f6725164bbc7fcf39bcbfde2, type: 2}
+  - {fileID: 11400000, guid: 88336fc0504cbf24e8d7699918207b8f, type: 2}
+  - {fileID: 11400000, guid: 6600665410609bf46afd687ecd9b9539, type: 2}
+  - {fileID: 11400000, guid: 9df958f893216554b8ff76330bc86a36, type: 2}
+  - {fileID: 11400000, guid: b35b48b2ff82c0446922d2792dba959a, type: 2}
+  - {fileID: 11400000, guid: b338253c6a6984e4e80e02511d01f36e, type: 2}
+  - {fileID: 11400000, guid: e810fc905fdffa74f9ff51f0c09e0c6b, type: 2}
+  - {fileID: 11400000, guid: 6f820a2a9d681d54e8120c823aef08d6, type: 2}

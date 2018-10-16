@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CharacterMover.cs" t="Include" />
+          <e p="EnemySpawn.cs" t="Include" />
           <e p="EventScripts" t="Include">
             <e p="EventDisable.cs" t="Include" />
             <e p="EventEnable.cs" t="Include" />
@@ -18,6 +19,7 @@
             <e p="EventTriggerExit.cs" t="Include" />
             <e p="EventUpdate.cs" t="Include" />
           </e>
+          <e p="InfiniteCounter.cs" t="Include" />
           <e p="ScriptableObjectScripts" t="Include">
             <e p="SOColor.cs" t="Include" />
             <e p="SOColorChange.cs" t="Include" />
@@ -28,6 +30,9 @@
             <e p="SOInstance.cs" t="Include" />
             <e p="SOMovePattern.cs" t="Include" />
             <e p="SOPositionChange.cs" t="Include" />
+            <e p="SORotationChange.cs" t="Include" />
+            <e p="SOSpawn.cs" t="Include" />
+            <e p="SOSpawnList.cs" t="Include" />
             <e p="SOVector3.cs" t="Include" />
           </e>
         </e>
