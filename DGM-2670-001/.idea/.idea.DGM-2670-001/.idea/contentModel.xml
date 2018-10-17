@@ -27,6 +27,7 @@
           <e p="FloatInput.cs" t="Include" />
           <e p="ForEachLoops.cs" t="Include" />
           <e p="InstanceObject.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
           <e p="PerpetualCounter.cs" t="Include" />
@@ -35,6 +36,7 @@
           <e p="Store" t="Include">
             <e p="Scripts" t="Include">
               <e p="Objects.cs" t="Include" />
+              <e p="PurchasableObject.cs" t="Include" />
               <e p="Store.cs" t="Include" />
             </e>
           </e>

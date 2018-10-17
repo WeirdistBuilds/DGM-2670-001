@@ -11,4 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da1f2bac54b1e60469596cebf645fcad, type: 3}
   m_Name: AvailableLetters
   m_EditorClassIdentifier: 
-  ObjectList: []
+  ObjectList:
+  - {fileID: 11400000, guid: 7587e25c5fa9bfb42af193e3bbc3f61d, type: 2}
+  - {fileID: 11400000, guid: 2b87cf50f90171f43b6aa66d8d3457e6, type: 2}
+  - {fileID: 11400000, guid: 2b938c8172f9a85468195fff5dceec89, type: 2}

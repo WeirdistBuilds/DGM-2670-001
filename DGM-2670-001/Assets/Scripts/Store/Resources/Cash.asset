@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da1f2bac54b1e60469596cebf645fcad, type: 3}
-  m_Name: PurchasedLetters
+  m_Script: {fileID: 11500000, guid: eaa7e6ef649b8e346a2bfd1f22c5a95e, type: 3}
+  m_Name: Cash
   m_EditorClassIdentifier: 
-  ObjectList: []
+  value: 895000
