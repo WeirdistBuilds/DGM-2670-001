@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2aea88a9a36f20439854b35b7cca021, type: 3}
+  m_Name: EnemySpawn5
+  m_EditorClassIdentifier: 
+  EnemyPosition: {fileID: 11400000, guid: d1d4443c84a41424fb6bcd9dbb8b43d7, type: 2}
+  EnemyRotation: {fileID: 11400000, guid: 12d6f047a0be4d34eafd53ed64b4d612, type: 2}

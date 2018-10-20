@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114925567648030766}
   - component: {fileID: 114903639171003314}
   - component: {fileID: 114245169162145640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 23954583757315288}
   - component: {fileID: 135017167429721942}
   - component: {fileID: 114205953351733298}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EyeBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   - component: {fileID: 23879522925857510}
   - component: {fileID: 135533786613595946}
   - component: {fileID: 114446158913819442}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pupil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
