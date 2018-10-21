@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class ItemThrow : ScriptableObject
+public class ItemThrow : MonoBehaviour
 {
     public SOSpawnList ItemSpawnList;
     public SOInt ThrowDirection;
