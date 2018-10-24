@@ -10,6 +10,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AiAgent.cs" t="Include" />
+          <e p="BoolData.cs" t="Include" />
           <e p="ChangeColor.cs" t="Include" />
           <e p="ChangeSpriteColor.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
@@ -32,9 +33,11 @@
           <e p="MovePatternNotGrounded.cs" t="Include" />
           <e p="PerpetualCounter.cs" t="Include" />
           <e p="RunCountDown.cs" t="Include" />
+          <e p="SimpleAI.cs" t="Include" />
           <e p="StartBehaviour.cs" t="Include" />
           <e p="Store" t="Include">
             <e p="Scripts" t="Include">
+              <e p="DebugObject.cs" t="Include" />
               <e p="Objects.cs" t="Include" />
               <e p="PurchasableObject.cs" t="Include" />
               <e p="Store.cs" t="Include" />

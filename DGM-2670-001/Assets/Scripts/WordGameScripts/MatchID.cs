@@ -5,19 +5,26 @@ public class MatchID : MonoBehaviour
 {
     public NameID ID;
     public UnityEvent OnMatch;
+    public UnityEvent NoMatch;
+    //public BoolData Matched;
     
 
     private void OnTriggerEnter(Collider other)
     {
         var id = other.GetComponent<ObjectID>().ID;
-        Call(id);
+        CompareMatch(id);
     }
     
-    public void Call(NameID id)
+    public void CompareMatch(NameID match)
     {
-        if (id == ID)
+        if (match == ID)
         {
+        //  Matched.Value = true;
             OnMatch.Invoke();
+        }
+        else
+        {
+            NoMatch.Invoke();
         }
     }
     
