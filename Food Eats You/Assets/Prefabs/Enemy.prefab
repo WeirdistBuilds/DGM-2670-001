@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4800659591434750}
   - component: {fileID: 33061375467327578}
   - component: {fileID: 23115124154919292}
-  - component: {fileID: 135505229891834638}
   - component: {fileID: 143085601141427444}
   - component: {fileID: 114925567648030766}
   - component: {fileID: 114903639171003314}
@@ -43,7 +42,6 @@ GameObject:
   - component: {fileID: 4150841955658520}
   - component: {fileID: 33488679141964878}
   - component: {fileID: 23954583757315288}
-  - component: {fileID: 135017167429721942}
   - component: {fileID: 114205953351733298}
   m_Layer: 8
   m_Name: EyeBack
@@ -62,7 +60,6 @@ GameObject:
   - component: {fileID: 4307431870692062}
   - component: {fileID: 33438575364346914}
   - component: {fileID: 23879522925857510}
-  - component: {fileID: 135533786613595946}
   - component: {fileID: 114446158913819442}
   m_Layer: 8
   m_Name: Pupil
@@ -345,42 +342,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pattern: {fileID: 11400000, guid: 174c0f67dd79f704c95d135e445b69e1, type: 2}
---- !u!135 &135017167429721942
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1308693338465006}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!135 &135505229891834638
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1126347301245310}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!135 &135533786613595946
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1523957944382946}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!143 &143085601141427444
 CharacterController:
   m_ObjectHideFlags: 1

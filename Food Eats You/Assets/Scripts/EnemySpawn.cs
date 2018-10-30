@@ -13,7 +13,7 @@ public class EnemySpawn : MonoBehaviour
         spawnPoint = ThisSpawnList.SpawnList[Random.Range(0, ThisSpawnList.SpawnList.Count)];
         
         //Transform GameObject to that position, movement happens automatically
-        gameObject.transform.position = new Vector3(spawnPoint.EnemyPosition.X.Value, spawnPoint.EnemyPosition.Y.Value, spawnPoint.EnemyPosition.Z.Value);
-        gameObject.transform.Rotate(spawnPoint.EnemyRotation.X.Value, spawnPoint.EnemyRotation.Y.Value, spawnPoint.EnemyRotation.Z.Value);        
+        gameObject.transform.position = new Vector3(spawnPoint.ObjectPosition.X.Value, spawnPoint.ObjectPosition.Y.Value, spawnPoint.ObjectPosition.Z.Value);
+        gameObject.transform.Rotate(spawnPoint.ObjectRotation.X.Value, spawnPoint.ObjectRotation.Y.Value, spawnPoint.ObjectRotation.Z.Value);        
     }
 }

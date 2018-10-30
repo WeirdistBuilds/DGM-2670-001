@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2aea88a9a36f20439854b35b7cca021, type: 3}
   m_Name: EnemySpawn1
   m_EditorClassIdentifier: 
-  EnemyPosition: {fileID: 11400000, guid: bfcc85778186e3446a2e835851b5fa73, type: 2}
-  EnemyRotation: {fileID: 11400000, guid: 67f9d6a8b8d809949853fb2214b31175, type: 2}
+  ObjectPosition: {fileID: 11400000, guid: bfcc85778186e3446a2e835851b5fa73, type: 2}
+  ObjectRotation: {fileID: 11400000, guid: 67f9d6a8b8d809949853fb2214b31175, type: 2}

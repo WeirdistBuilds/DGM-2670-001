@@ -20,7 +20,7 @@
             <e p="EventUpdate.cs" t="Include" />
           </e>
           <e p="InfiniteCounter.cs" t="Include" />
-          <e p="ItemThrow.cs" t="Include" />
+          <e p="ItemSpawn.cs" t="Include" />
           <e p="ScriptableObjectScripts" t="Include">
             <e p="SOColor.cs" t="Include" />
             <e p="SOColorChange.cs" t="Include" />
@@ -30,6 +30,7 @@
             <e p="SOInputBool.cs" t="Include" />
             <e p="SOInstance.cs" t="Include" />
             <e p="SOInt.cs" t="Include" />
+            <e p="SOIntChange.cs" t="Include" />
             <e p="SOMovePattern.cs" t="Include" />
             <e p="SOPositionChange.cs" t="Include" />
             <e p="SORotationChange.cs" t="Include" />
