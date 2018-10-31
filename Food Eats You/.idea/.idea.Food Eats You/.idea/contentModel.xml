@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CharacterMover.cs" t="Include" />
+          <e p="CollisionDebug.cs" t="Include" />
           <e p="EnemySpawn.cs" t="Include" />
           <e p="EventScripts" t="Include">
             <e p="EventDisable.cs" t="Include" />
@@ -20,10 +21,14 @@
             <e p="EventUpdate.cs" t="Include" />
           </e>
           <e p="InfiniteCounter.cs" t="Include" />
+          <e p="ItemContact.cs" t="Include" />
           <e p="ItemSpawn.cs" t="Include" />
           <e p="ScriptableObjectScripts" t="Include">
             <e p="SOColor.cs" t="Include" />
             <e p="SOColorChange.cs" t="Include" />
+            <e p="SODebugObject.cs" t="Include" />
+            <e p="SODestroy.cs" t="Include" />
+            <e p="SODestroyAfterDelay.cs" t="Include" />
             <e p="SOFloat.cs" t="Include" />
             <e p="SOID.cs" t="Include" />
             <e p="SOInput.cs" t="Include" />
