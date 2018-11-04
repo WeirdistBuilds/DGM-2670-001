@@ -5,9 +5,11 @@ public class ItemContact : MonoBehaviour {
 	{
 		Debug.Log("Collision");
 		if (other.transform.CompareTag("Projectile"))
-			{
-				Destroy(other.gameObject);
-				Destroy(gameObject);
-			}
+		{
+			Destroy(other.gameObject);
+			Destroy(gameObject);
+		}
 	}
+
+	
 }
