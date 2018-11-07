@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 
 public class ItemContact : MonoBehaviour {
-	private void OnCollisionEnter(Collision other)
+	private void OnTriggerEnter(Collider other)
 	{
-		Debug.Log("Collision");
-		if (other.transform.CompareTag("Projectile"))
+		Debug.Log(gameObject.name + " has been triggered by " + other.gameObject.name);
+		if (other.transform.CompareTag("Item"))
 		{
 			Destroy(other.gameObject);
 			Destroy(gameObject);

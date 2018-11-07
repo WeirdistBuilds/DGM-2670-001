@@ -9,8 +9,8 @@
         <e p="Scripts" t="Include">
           <e p="CharacterMover.cs" t="Include" />
           <e p="CollisionDebug.cs" t="Include" />
-          <e p="EnemyContact.cs" t="Include" />
           <e p="EnemySpawn.cs" t="Include" />
+          <e p="EnemyTrigger.cs" t="Include" />
           <e p="EventScripts" t="Include">
             <e p="EventDisable.cs" t="Include" />
             <e p="EventEnable.cs" t="Include" />
@@ -46,6 +46,13 @@
             <e p="SOVector3.cs" t="Include" />
           </e>
           <e p="TextChange.cs" t="Include" />
+        </e>
+        <e p="Store" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Objects.cs" t="Include" />
+            <e p="PurchasableObject.cs" t="Include" />
+            <e p="Store.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Food Eats You.sln" t="IncludeFlat" />
