@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Name: PowerUpList
   m_EditorClassIdentifier: 
   ObjectList:
-  - {fileID: 1282781622264770, guid: 5c8129e75d9c4e04891d70204a50390a, type: 2}
-  - {fileID: 1282781622264770, guid: 150cf350f31dc254fa8ee76acf76c658, type: 2}
+  - {fileID: 11400000, guid: 9bf94a6a1770efd499698485d881dab4, type: 2}
+  - {fileID: 11400000, guid: a01bec55c4f1c464d954188eddd8791f, type: 2}
+  - {fileID: 11400000, guid: d5ba69726e608e64e986b7dbc7955e7f, type: 2}
+  - {fileID: 11400000, guid: 2341e975e75581045a538980ef6dc17a, type: 2}
+  - {fileID: 0}
   - {fileID: 0}

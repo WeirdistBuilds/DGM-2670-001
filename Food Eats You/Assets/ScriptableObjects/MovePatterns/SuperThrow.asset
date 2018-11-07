@@ -15,6 +15,6 @@ MonoBehaviour:
   MoveX: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
   MoveY: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
   MoveZ: {fileID: 11400000, guid: 5b8f420bdcdc6894baeb853012d92626, type: 2}
-  RotX: {fileID: 11400000, guid: 73219221fa3716b4f9cd3abbdfe810b8, type: 2}
-  RotY: {fileID: 11400000, guid: e454fbbe640b695469944b63dfff5a84, type: 2}
-  RotZ: {fileID: 11400000, guid: f2cbf140927938642b836b538e372f98, type: 2}
+  RotX: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
+  RotY: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
+  RotZ: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
