@@ -349,7 +349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6ceeb2e34eb33d43b4a90ba684eea05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentKills: {fileID: 11400000, guid: 41b0571647c077e4cb6e33ac36bb6150, type: 2}
+  CurrentKills: {fileID: 11400000, guid: 09e7d6ead7c6425439c2a759fb8144ca, type: 2}
 --- !u!114 &114254362293496572
 MonoBehaviour:
   m_ObjectHideFlags: 1
