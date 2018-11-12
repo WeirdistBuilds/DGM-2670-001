@@ -15,6 +15,7 @@ public class EnemyTrigger : MonoBehaviour
 		{
 			CurrentKills.Value++;
 			Destroy(gameObject);
+			Destroy(other.gameObject);
 		}
 		
 		else if (other.transform.CompareTag("Super"))

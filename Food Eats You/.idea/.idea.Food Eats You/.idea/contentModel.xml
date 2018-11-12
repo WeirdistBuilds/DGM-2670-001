@@ -24,6 +24,7 @@
           <e p="ItemContact.cs" t="Include" />
           <e p="ItemSpawn.cs" t="Include" />
           <e p="PurchaseBullet.cs" t="Include" />
+          <e p="PurchaseSpin.cs" t="Include" />
           <e p="ScriptableObjectScripts" t="Include">
             <e p="SOColor.cs" t="Include" />
             <e p="SOColorChange.cs" t="Include" />

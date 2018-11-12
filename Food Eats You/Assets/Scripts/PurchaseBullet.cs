@@ -10,8 +10,8 @@ public class PurchaseBullet : MonoBehaviour
     public SOString NewTag;
     public SOFloat NewSpeed;
     
-    public string oldTag;
-    public float oldSpeed;
+    private string oldTag;
+    private float oldSpeed;
     
 
     public void Call()
