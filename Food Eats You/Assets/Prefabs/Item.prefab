@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 65292980466751784}
   m_Layer: 8
   m_Name: Trigger
-  m_TagString: Super
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -6,51 +6,53 @@ public class PurchaseBullet : MonoBehaviour
     public GameObject Item;
     public SOMovePattern ItemMovePattern;
     public SOInt TimeLeft;
+    public SOInt DefaultTime;
     public SOString NewTag;
     public SOFloat NewSpeed;
-    public bool IsRunning;
     
-    private string oldTag;
-    private SOFloat oldSpeed;
-    private SOInt StartingTime;
+    public string oldTag;
+    public float oldSpeed;
+    
 
     public void Call()
     {
-        StartingTime = TimeLeft;
-        StartCoroutine(Countdown());
+        oldTag = Item.transform.tag;
+        oldSpeed = ItemMovePattern.MoveY.Value;
+        TimeLeft.Value = DefaultTime.Value;
+        
         ChangeTag(NewTag);
         ChangeSpeed(NewSpeed);
-        IsRunning = true;
+        StartCoroutine(Timer());
     }
     
     
-    public void ChangeTag(SOString newTag)
+    private IEnumerator Timer()
     {
-        oldTag = Item.transform.tag;
+        while (TimeLeft.Value > 0)
+        {
+            Debug.Log("Timer Ran from " + TimeLeft.Value + " to next value.");
+            TimeLeft.Value--;
+            yield return new WaitForSeconds(1);
+        }
+        Reset();
+        Debug.Log("Timer Stopped.");
+    }
+    
+    private void ChangeTag(SOString newTag)
+    {
         Item.transform.tag = newTag.Value;
     }
 
-    public void ChangeSpeed(SOFloat newSpeed)
+    private void ChangeSpeed(SOFloat newSpeed)
     {
-        oldSpeed = ItemMovePattern.MoveY;
         ItemMovePattern.MoveY = newSpeed;
     }
-    
-    private IEnumerator Countdown()
-    {
-        TimeLeft.Value--;
-        yield return new WaitForSeconds(1);
-    }
 
-    void Update()
+    private void Reset()
     {
-        if (TimeLeft.Value <= 0 && IsRunning)
-        {
-            StopCoroutine(Countdown());
-            TimeLeft = StartingTime;
-            Item.transform.tag = oldTag;
-            ItemMovePattern.MoveY = oldSpeed;
-            IsRunning = false;
-        }
+        TimeLeft.Value = 0;
+        Item.transform.tag = oldTag;
+        ItemMovePattern.MoveY.value = oldSpeed;
     }
+    
 }
