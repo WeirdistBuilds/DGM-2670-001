@@ -3,19 +3,28 @@ using UnityEngine;
 
 public class PurchaseSpin : MonoBehaviour
 {
-    public SOMovePattern PlayerMovePattern;
+    public SOFloat PlayerSpin;
+    public SOFloat NormalSpin;
+    public SOFloat SuperSpin;
     public SOInt TimeLeft;
     public SOInt DefaultTime;
-    public SOFloat NewSpeed;
-    public float oldSpeed;
     
+    private bool isRunning;
+
+    private void Start()
+    {
+        ResetSpin();
+    }
+
     public void Call()
     {
-        oldSpeed = PlayerMovePattern.RotY.Value;
-        TimeLeft.Value = DefaultTime.Value;
-        
-        ChangeSpeed(NewSpeed);
-        StartCoroutine(Timer());
+        if (!isRunning)
+        {
+            TimeLeft.Value = DefaultTime.Value;
+            ChangeSpeed();
+            StartCoroutine(Timer());
+            isRunning = true;
+        }
     }
     
     
@@ -26,18 +35,19 @@ public class PurchaseSpin : MonoBehaviour
             TimeLeft.Value--;
             yield return new WaitForSeconds(1);
         }
-        Reset();
+        ResetSpin();
     }
     
-    private void ChangeSpeed(SOFloat newSpeed)
+    private void ChangeSpeed()
     {
-        PlayerMovePattern.RotY = newSpeed;
+        PlayerSpin.value = SuperSpin.Value;
     }
 
-    private void Reset()
+    private void ResetSpin()
     {
         TimeLeft.Value = 0;
-        PlayerMovePattern.RotY.value = oldSpeed;
+        PlayerSpin.value = NormalSpin.Value;
+        isRunning = false;
     }
     
 }

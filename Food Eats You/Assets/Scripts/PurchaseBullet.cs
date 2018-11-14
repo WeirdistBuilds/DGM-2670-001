@@ -12,19 +12,28 @@ public class PurchaseBullet : MonoBehaviour
     
     private string oldTag;
     private float oldSpeed;
-    
+    private bool isRunning;
+
+    private void Start()
+    {
+        TimeLeft.Value = 0;
+        oldTag = Item.transform.tag;
+        oldSpeed = ItemMovePattern.MoveY.Value;
+        isRunning = false;
+    }
 
     public void Call()
     {
-        oldTag = Item.transform.tag;
-        oldSpeed = ItemMovePattern.MoveY.Value;
-        TimeLeft.Value = DefaultTime.Value;
+        if (!isRunning)
+        {
+            TimeLeft.Value = DefaultTime.Value;
         
-        ChangeTag(NewTag);
-        ChangeSpeed(NewSpeed);
-        StartCoroutine(Timer());
+            ChangeTag(NewTag);
+            ChangeSpeed(NewSpeed);
+            StartCoroutine(Timer());
+            isRunning = true;
+        }
     }
-    
     
     private IEnumerator Timer()
     {
@@ -34,7 +43,7 @@ public class PurchaseBullet : MonoBehaviour
             TimeLeft.Value--;
             yield return new WaitForSeconds(1);
         }
-        Reset();
+        ResetBullet();
         Debug.Log("Timer Stopped.");
     }
     
@@ -48,11 +57,12 @@ public class PurchaseBullet : MonoBehaviour
         ItemMovePattern.MoveY = newSpeed;
     }
 
-    private void Reset()
+    private void ResetBullet()
     {
         TimeLeft.Value = 0;
         Item.transform.tag = oldTag;
         ItemMovePattern.MoveY.value = oldSpeed;
+        isRunning = false;
     }
     
 }

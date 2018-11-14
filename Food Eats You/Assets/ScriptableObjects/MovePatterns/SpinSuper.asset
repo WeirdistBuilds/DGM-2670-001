@@ -9,12 +9,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd7ab7e9c31b25341ae101ad1fb04181, type: 3}
-  m_Name: AutoWalk
+  m_Name: SpinSuper
   m_EditorClassIdentifier: 
-  Gravity: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
+  Gravity: {fileID: 11400000, guid: a607d2b8272f53246a1b4f0a2dc345df, type: 2}
   MoveX: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
   MoveY: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
-  MoveZ: {fileID: 11400000, guid: 3eda1068368df154cb4d0873ae60bea8, type: 2}
+  MoveZ: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
   RotX: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
-  RotY: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
+  RotY: {fileID: 11400000, guid: f6e67426f0f46354d8ba79fe3efc843a, type: 2}
   RotZ: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
