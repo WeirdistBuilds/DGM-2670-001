@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7875b144a81251642b1e071a205aea71
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - PlayerSpin: {fileID: 11400000, guid: 2efafbdd805b8a947b868f97a1f73fd1, type: 2}
+  - NormalSpin: {fileID: 11400000, guid: 2543e638bbb07834186d512365da2d98, type: 2}
+  - SuperSpin: {fileID: 11400000, guid: 6939347ab9d42cf4dbf26b479829f49f, type: 2}
+  - TimeLeft: {fileID: 11400000, guid: c5b0192a722880349832d8df93e7cf3b, type: 2}
+  - DefaultTime: {fileID: 11400000, guid: be88394653c842f4d8c5abfa9cfb056b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

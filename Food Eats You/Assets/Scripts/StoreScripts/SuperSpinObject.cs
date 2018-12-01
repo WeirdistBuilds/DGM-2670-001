@@ -1,30 +1,19 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class PurchaseSpin : MonoBehaviour
+public class SuperSpinObject : MonoBehaviour
 {
     public SOFloat PlayerSpin;
     public SOFloat NormalSpin;
     public SOFloat SuperSpin;
     public SOInt TimeLeft;
     public SOInt DefaultTime;
-    
-    private bool isRunning;
 
-    private void Start()
+    public void Start()
     {
-        ResetSpin();
-    }
-
-    public void Call()
-    {
-        if (!isRunning)
-        {
-            TimeLeft.Value = DefaultTime.Value;
-            ChangeSpeed();
-            StartCoroutine(Timer());
-            isRunning = true;
-        }
+        TimeLeft.Value = DefaultTime.Value;
+        ChangeSpeed();
+        StartCoroutine(Timer());
     }
     
     
@@ -36,6 +25,7 @@ public class PurchaseSpin : MonoBehaviour
             yield return new WaitForSeconds(1);
         }
         ResetSpin();
+        Destroy(this);
     }
     
     private void ChangeSpeed()
@@ -47,7 +37,6 @@ public class PurchaseSpin : MonoBehaviour
     {
         TimeLeft.Value = 0;
         PlayerSpin.value = NormalSpin.Value;
-        isRunning = false;
     }
     
 }

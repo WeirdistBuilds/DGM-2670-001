@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10285843\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Food Eats You.-1667093815.00" t="ExcludeRecursive" />
-    <e p="F:\Git Repos\DGM-2670-001\Food Eats You" t="IncludeRecursive">
+    <e p="C:\Users\Klee\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Klee\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Food Eats You.-1415048716.00" t="ExcludeRecursive" />
+    <e p="E:\Work\School Work\2018 Fall\DGM-2670\Git Repos\DGM-2670-001\Food Eats You" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="CharacterMover.cs" t="Include" />
           <e p="CollisionDebug.cs" t="Include" />
-          <e p="EnemySpawn.cs" t="Include" />
-          <e p="EnemyTrigger.cs" t="Include" />
           <e p="EventScripts" t="Include">
             <e p="EventDisable.cs" t="Include" />
             <e p="EventEnable.cs" t="Include" />
@@ -20,11 +18,15 @@
             <e p="EventTriggerExit.cs" t="Include" />
             <e p="EventUpdate.cs" t="Include" />
           </e>
-          <e p="InfiniteCounter.cs" t="Include" />
-          <e p="ItemContact.cs" t="Include" />
-          <e p="ItemSpawn.cs" t="Include" />
-          <e p="PurchaseBullet.cs" t="Include" />
-          <e p="PurchaseSpin.cs" t="Include" />
+          <e p="GameMechanicScripts" t="Include">
+            <e p="CharacterMover.cs" t="Include" />
+            <e p="EnemySpawn.cs" t="Include" />
+            <e p="EnemyTrigger.cs" t="Include" />
+            <e p="InfiniteCounter.cs" t="Include" />
+            <e p="ItemContact.cs" t="Include" />
+            <e p="ItemSpawn.cs" t="Include" />
+          </e>
+          <e p="Reset.cs" t="Include" />
           <e p="ScriptableObjectScripts" t="Include">
             <e p="SOColor.cs" t="Include" />
             <e p="SOColorChange.cs" t="Include" />
@@ -47,7 +49,14 @@
             <e p="SOString.cs" t="Include" />
             <e p="SOVector3.cs" t="Include" />
           </e>
-          <e p="TextChange.cs" t="Include" />
+          <e p="StoreScripts" t="Include">
+            <e p="ObjectForPurchase.cs" t="Include" />
+            <e p="ObjectForPurchaseGenerator.cs" t="Include" />
+            <e p="ObjectsForPurchase.cs" t="Include" />
+            <e p="Store.cs" t="Include" />
+            <e p="SuperBulletObject.cs" t="Include" />
+            <e p="SuperSpinObject.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Food Eats You.sln" t="IncludeFlat" />

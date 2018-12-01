@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1179167189130990}
+  m_IsPrefabParent: 1
+--- !u!1 &1179167189130990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4313922811932824}
+  - component: {fileID: 114421464110946916}
+  m_Layer: 9
+  m_Name: SuperBullet
+  m_TagString: Item
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4313922811932824
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179167189130990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114421464110946916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179167189130990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8adddacf04c262c41a1ca90b0412af3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Item: {fileID: 1443208859356860, guid: f2339dd2263e814478ae8496a74fef47, type: 2}
+  ItemSpeed: {fileID: 11400000, guid: f50efc9b4f4e28140a6088c7b4c2b669, type: 2}
+  TimeLeft: {fileID: 11400000, guid: bd56b50cde8908b449ae3425e4d83661, type: 2}
+  DefaultTime: {fileID: 11400000, guid: be88394653c842f4d8c5abfa9cfb056b, type: 2}
+  SuperTag: {fileID: 11400000, guid: 3c7466e354d8bbd42adba08d15c3fdb8, type: 2}
+  DefaultTag: {fileID: 11400000, guid: 88079acbe359d464f80283534c99b06e, type: 2}
+  SuperSpeed: {fileID: 11400000, guid: 9f4a3977dc91410408b5988e2e8ce49f, type: 2}
+  DefaultSpeed: {fileID: 11400000, guid: f96f45695097dc84783e09c758647113, type: 2}
