@@ -11,4 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdfaea9bb24caa94383a92c4a35bebb3, type: 3}
   m_Name: ObjectsPurchased
   m_EditorClassIdentifier: 
-  ObjectList: []
+  ObjectList:
+  - {fileID: 11400000, guid: 4d24c370194cb1f48ba5a78c56c35056, type: 2}
+  - {fileID: 11400000, guid: eede7e8d2b955f242b0443c32097d883, type: 2}

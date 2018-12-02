@@ -25,7 +25,7 @@ public class Reset : MonoBehaviour {
 		ItemSpeed.value = NormalSpeed.Value;
 
 		KillCount.Value = 0;
-		CashCount.Value = 0;
+		CashCount.Value = 60;
 
 		SpinTimer.Value = DefaultTime.Value;
 		BulletTimer.Value = DefaultTime.Value;

@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "Store", menuName = "Store/Storefront")]
 
-public class Store : MonoBehaviour
+public class Store : ScriptableObject
 {
     public ObjectsForPurchase Available;
     public ObjectsForPurchase Purchased;
