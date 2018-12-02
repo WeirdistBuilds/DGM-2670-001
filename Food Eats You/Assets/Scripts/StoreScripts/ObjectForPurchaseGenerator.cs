@@ -17,5 +17,4 @@ public class ObjectForPurchaseGenerator : MonoBehaviour
 			}
 		}
 	}
-	
 }

@@ -17,6 +17,10 @@ public class Reset : MonoBehaviour {
 	public SOInt BulletTimer;
 	public SOInt DefaultTime;
 
+	public ObjectsForPurchase Store;
+	public ObjectsForPurchase Purchased;
+	public ObjectsForPurchase DefaultStore;
+
 	private void Start()
 	{
 		PlayerSpin.value = NormalSpin.Value;
@@ -29,5 +33,9 @@ public class Reset : MonoBehaviour {
 
 		SpinTimer.Value = DefaultTime.Value;
 		BulletTimer.Value = DefaultTime.Value;
+		
+		Store.ObjectList = DefaultStore.ObjectList;
+		Purchased.ObjectList.Clear();
 	}
+	
 }
