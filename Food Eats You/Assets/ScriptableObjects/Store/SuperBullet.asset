@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Item: {fileID: 1179167189130990, guid: a13116211b813a449a214e74bac47bd0, type: 2}
   PreviewArt: {fileID: 0}
-  UsageCount: 10
+  UsageCount: 1
   Value: 30
   Upgrade: 0
   UpgradeFrom: {fileID: 0}
-  Perpetual: 1
+  Perpetual: 0
   Instantiatable: 1

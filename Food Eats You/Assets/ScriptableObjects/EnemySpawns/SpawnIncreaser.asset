@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed949a55b625482438434337e98bada5, type: 3}
+  m_Name: SpawnIncreaser
+  m_EditorClassIdentifier: 
+  DefaultSpawnSpeed: {fileID: 11400000, guid: f1c4bed28a4dc1a498edcd4de83444fe, type: 2}
+  SpawnSpeed: {fileID: 11400000, guid: 7f4f52cc846f219488085a513720006b, type: 2}
+  Kills: {fileID: 11400000, guid: 09e7d6ead7c6425439c2a759fb8144ca, type: 2}
+  MaxValue: {fileID: 11400000, guid: 678ecc00e4d853349999badce9a8b576, type: 2}
+  Percentage: {fileID: 11400000, guid: 6bd148221bdb9d647a437cf038cd3d65, type: 2}

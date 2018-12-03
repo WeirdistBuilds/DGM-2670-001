@@ -5,14 +5,14 @@ using UnityEngine.Events;
 public class InfiniteCounter : MonoBehaviour
 {
     public UnityEvent OnCount;
-    public float Seconds = 1;
+    public SOFloat Seconds;
 
     IEnumerator Start()
     {
         while (true)
         {
             OnCount.Invoke();
-            yield return new WaitForSeconds(Seconds);
+            yield return new WaitForSeconds(Seconds.Value);
         }
     }
 }
