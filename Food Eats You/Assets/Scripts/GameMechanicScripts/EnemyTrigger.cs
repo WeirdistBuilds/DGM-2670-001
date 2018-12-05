@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class EnemyTrigger : MonoBehaviour
 {
 	public SOInt CurrentKills;
+	public SOInt HighScore;
 	public SOInt CurrentCash;
 	public SOInt BulletTimer;
 	public SOInt SpinTimer;
@@ -34,6 +35,11 @@ public class EnemyTrigger : MonoBehaviour
 			BulletTimer.Value = DefaultTime.Value;
 			SpinTimer.Value = DefaultTime.Value;
 			SceneManager.LoadScene("Level01");
+		}
+
+		if (CurrentKills.Value > HighScore.Value)
+		{
+			HighScore.Value = CurrentKills.Value;
 		}
 	}
 }

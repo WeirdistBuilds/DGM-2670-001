@@ -350,6 +350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentKills: {fileID: 11400000, guid: 09e7d6ead7c6425439c2a759fb8144ca, type: 2}
+  HighScore: {fileID: 11400000, guid: 20a43f46c3c6f274a90c3463ff9dc04d, type: 2}
   CurrentCash: {fileID: 11400000, guid: 33204d36576573f4ab449368b9804836, type: 2}
   BulletTimer: {fileID: 11400000, guid: bd56b50cde8908b449ae3425e4d83661, type: 2}
   SpinTimer: {fileID: 11400000, guid: c5b0192a722880349832d8df93e7cf3b, type: 2}

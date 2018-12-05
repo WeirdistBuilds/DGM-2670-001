@@ -10,6 +10,7 @@
           <e p="EventScripts" t="Include">
             <e p="EventDisable.cs" t="Include" />
             <e p="EventEnable.cs" t="Include" />
+            <e p="EventGetButtonDown.cs" t="Include" />
             <e p="EventMouseDown.cs" t="Include" />
             <e p="EventMouseUp.cs" t="Include" />
             <e p="EventStart.cs" t="Include" />
@@ -43,7 +44,9 @@
             <e p="SOMovePattern.cs" t="Include" />
             <e p="SOObject.cs" t="Include" />
             <e p="SOPositionChange.cs" t="Include" />
+            <e p="SOQuit.cs" t="Include" />
             <e p="SORotationChange.cs" t="Include" />
+            <e p="SOSceneChange.cs" t="Include" />
             <e p="SOSpawn.cs" t="Include" />
             <e p="SOSpawnList.cs" t="Include" />
             <e p="SOString.cs" t="Include" />
