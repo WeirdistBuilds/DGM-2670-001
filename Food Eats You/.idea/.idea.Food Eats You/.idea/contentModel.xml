@@ -29,6 +29,7 @@
           </e>
           <e p="Reset.cs" t="Include" />
           <e p="ScriptableObjectScripts" t="Include">
+            <e p="SOBool.cs" t="Include" />
             <e p="SOColor.cs" t="Include" />
             <e p="SOColorChange.cs" t="Include" />
             <e p="SODebugObject.cs" t="Include" />

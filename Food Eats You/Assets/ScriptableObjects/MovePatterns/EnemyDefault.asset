@@ -14,7 +14,7 @@ MonoBehaviour:
   Gravity: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
   MoveX: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
   MoveY: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
-  MoveZ: {fileID: 11400000, guid: 3eda1068368df154cb4d0873ae60bea8, type: 2}
+  MoveZ: {fileID: 11400000, guid: 619f3791e28605a49b03a4fee51954b7, type: 2}
   RotX: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
   RotY: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}
   RotZ: {fileID: 11400000, guid: afe90a8291b2b9d40b327d833baad618, type: 2}

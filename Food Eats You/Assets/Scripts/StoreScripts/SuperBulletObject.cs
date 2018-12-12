@@ -15,6 +15,8 @@ public class SuperBulletObject : MonoBehaviour
     
     public SOFloat SuperSpeed;
     public SOFloat DefaultSpeed;
+
+    public SOBool isRunning;
     
 
     private void Start()
@@ -22,18 +24,24 @@ public class SuperBulletObject : MonoBehaviour
         TimeLeft.Value = DefaultTime.Value;
         ChangeTag(SuperTag);
         ChangeSpeed(SuperSpeed);
-        StartCoroutine(Timer());
+        if (!isRunning.Value)
+        {
+            StartCoroutine(Timer());            
+        }
+        
     }
     
     private IEnumerator Timer()
     {
+        isRunning.Value = true;
         while (TimeLeft.Value > 0)
         {
             TimeLeft.Value--;
             yield return new WaitForSeconds(1);
         }
         ResetBullet();
-        Destroy(this);
+        Destroy(gameObject);
+        
     }
     
     private void ChangeTag(SOString newTag)
@@ -51,6 +59,7 @@ public class SuperBulletObject : MonoBehaviour
         TimeLeft.Value = 0;
         Item.transform.tag = DefaultTag.Value;
         ItemSpeed.value = DefaultSpeed.Value;
+        isRunning.Value = false;
     }
     
 }

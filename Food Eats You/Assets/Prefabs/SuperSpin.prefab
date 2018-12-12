@@ -56,3 +56,4 @@ MonoBehaviour:
   SuperSpin: {fileID: 11400000, guid: 6939347ab9d42cf4dbf26b479829f49f, type: 2}
   TimeLeft: {fileID: 11400000, guid: c5b0192a722880349832d8df93e7cf3b, type: 2}
   DefaultTime: {fileID: 11400000, guid: be88394653c842f4d8c5abfa9cfb056b, type: 2}
+  isRunning: {fileID: 11400000, guid: d8079b5544b45c04589834e345ff7301, type: 2}

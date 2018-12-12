@@ -59,3 +59,4 @@ MonoBehaviour:
   DefaultTag: {fileID: 11400000, guid: 88079acbe359d464f80283534c99b06e, type: 2}
   SuperSpeed: {fileID: 11400000, guid: 9f4a3977dc91410408b5988e2e8ce49f, type: 2}
   DefaultSpeed: {fileID: 11400000, guid: f96f45695097dc84783e09c758647113, type: 2}
+  isRunning: {fileID: 11400000, guid: b108ddd5e8eed864aaf5c85cc8863ff6, type: 2}

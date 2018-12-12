@@ -8,17 +8,23 @@ public class SuperSpinObject : MonoBehaviour
     public SOFloat SuperSpin;
     public SOInt TimeLeft;
     public SOInt DefaultTime;
+    
+    public SOBool isRunning;
 
     public void Start()
     {
         TimeLeft.Value = DefaultTime.Value;
         ChangeSpeed();
-        StartCoroutine(Timer());
+        if (!isRunning.Value)
+        {
+            StartCoroutine(Timer());            
+        }
     }
     
     
     private IEnumerator Timer()
     {
+        isRunning.Value = true;
         while (TimeLeft.Value > 0)
         {
             TimeLeft.Value--;
@@ -37,6 +43,7 @@ public class SuperSpinObject : MonoBehaviour
     {
         TimeLeft.Value = 0;
         PlayerSpin.value = NormalSpin.Value;
+        isRunning.Value = false;
     }
     
 }
