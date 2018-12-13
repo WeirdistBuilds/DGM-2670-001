@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19e1f0c8d2231fe4b8a8e87dbd80b834, type: 3}
-  m_Name: Cash
+  m_Script: {fileID: 11500000, guid: fa7de8c8530693a45a017ff8b807e04d, type: 3}
+  m_Name: ObjectForPurchaseGenerator
   m_EditorClassIdentifier: 
-  Value: 737
+  Purchased: {fileID: 11400000, guid: 95837bddf2e0c6b4ca3b5d845f55370a, type: 2}

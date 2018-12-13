@@ -1,20 +1,15 @@
 ﻿using UnityEngine;
 
-public class ObjectForPurchaseGenerator : MonoBehaviour
+[CreateAssetMenu(fileName = "ObjectForPurchaseGenerator", menuName = "Store/ObjectForPurchaseGenerator")]
+public class ObjectForPurchaseGenerator : ScriptableObject
 {
 
 	public ObjectsForPurchase Purchased;
 	
-	void Start ()
+	public void Call ()
 	{
-		for (var i = 0; i < Purchased.ObjectList.Count; i++)
-		{
-			var obj = Purchased.ObjectList[i];
-			obj.CreateItem();
-			if (!obj.Perpetual)
-			{
-				Purchased.ObjectList.Remove(obj);
-			}
-		}
+		var obj = Purchased.ObjectList[Purchased.ObjectList.Count - 1];
+		obj.CreateItem();
 	}
+	
 }

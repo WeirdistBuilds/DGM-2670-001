@@ -31,7 +31,7 @@ public class SuperSpinObject : MonoBehaviour
             yield return new WaitForSeconds(1);
         }
         ResetSpin();
-        Destroy(this);
+        Destroy(gameObject);
     }
     
     private void ChangeSpeed()
